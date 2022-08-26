@@ -218,7 +218,11 @@ public class DockerImageDownloader extends ArtifactDownloader {
     }
 
 
+
+
     private String getRegionFromArtifactUri(String artifactUriStr) {
+        //get the actual region from the artifact uri
+
         String regionStr = "";
 
         if (!Utils.isEmpty(artifactUriStr)) {
